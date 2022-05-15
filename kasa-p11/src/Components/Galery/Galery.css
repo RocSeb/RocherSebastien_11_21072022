@@ -1,0 +1,33 @@
+.galery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+  }
+  .galery-container .galery-card {
+    position: relative;
+    background-color: #ff6060;
+    box-shadow: 1px -69px 100px -49px rgba(0, 0, 0, 1) inset;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
+  .galery-card span {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .galery-card img {
+      width:340px;
+      height: 340px;
+      border-radius: 10px;
+  }
