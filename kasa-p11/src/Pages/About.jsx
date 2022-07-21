@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import DropdownTxt from "../Components/DropdownTxt/DropdownTxt";
-import Carousel from "../Components/Carousel/Carousel";
+import DropdownTxt from "../Components/Dropdown/DropdownTxt/DropdownTxt";
 //import data from "../data/data.json";
-import "../css/About.css"
+import "./css/About.css"
 
 export default function About() {
 
@@ -42,7 +41,9 @@ export default function About() {
     ])
     return (
         <div className="about-container">
-            <Carousel />
+            <div className="image-container">
+                <img src="../Images/Background2.png" alt="img1" />
+            </div>
             <section className="about_txt">
             {dropdownItems.map(dropdownItem =>
                 (

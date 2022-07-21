@@ -1,0 +1,39 @@
+.empty-stars {
+    position: relative;
+}
+.filled-stars {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.empty-stars img {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+  }
+
+  .filled-stars img {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+  }
+  @media screen and (min-width: 370px) and (max-width: 600px){
+    .empty-stars img {
+      width: 25px;
+      height: 25px;
+    }
+    .filled-stars img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  @media screen and (min-width: 100px) and (max-width: 370px) {
+    .empty-stars img {
+      width: 15px;
+      height: 15px;
+    }
+    .filled-stars img {
+      width: 15px;
+      height: 15px;
+    }
+  }

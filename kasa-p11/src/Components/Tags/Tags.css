@@ -1,0 +1,32 @@
+.tags-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 40vw;
+    height: 50px;
+  }
+  .tags-container .tag {
+    display: block;
+    width: auto;
+    height: 25px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    margin-left: 2%;
+    padding: 0 2% 0 2%;
+    text-align: center;
+    color: #fff;
+  }
+  @media screen and (min-width: 370px) and (max-width: 600px){
+
+  }
+  @media screen and (min-width: 100px) and (max-width: 370px) {
+    .tags-container {
+      width: 100%;
+      height: auto;
+    }
+    .tags-container .tag {
+      font-size: 0.7rem;
+      margin: 0 auto;
+      padding-top: 2%;
+      margin: 0;
+    }
+  }

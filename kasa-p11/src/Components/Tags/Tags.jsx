@@ -1,10 +1,14 @@
 import React from "react";
+import "./Tags.css";
 
-export default function tags() {
+export default function tags(props) {
+    const getTags = props.content;
+    const tag = getTags.map(getTag => {
+        return <span className="tag" key={getTag}>{getTag}</span>
+    })
     return (
         <div className="tags-container">
-            <span className="tag">Tag-name 1</span>
-            <span className="tag">Tag-name 2</span>
+            {tag}
         </div>
     )
 }

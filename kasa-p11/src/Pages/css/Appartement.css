@@ -1,0 +1,111 @@
+.appartement-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appartement-details img {
+    border-radius: 50%;
+}
+.appartement-details .profile-picture {
+    width: 100px;
+    height: 100px;
+}
+
+.dropdown-appart {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-appart .dropdown{
+    width: 30%;
+}
+.details-appart h1 {
+    color: #FF6060;
+    margin-bottom: 0.2em;
+}
+.details-appart span {
+    margin-block-start: 1.67em;
+    color: #FF6060;
+}
+.details-user .user-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.details-user .user-flex .user-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.details-user .user-flex span {
+    color: #FF6060;
+    font-size: 1.4rem;
+}
+@media screen and (min-width: 100px) and (max-width: 370px) {
+    .appartement-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .details-appart h1 {
+        font-size: 1.5rem;
+    }
+    .details-user {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .details-user .user-flex span {
+        font-size: 0.7rem;
+    }
+    .appartement-details .profile-picture {
+        width: 50px;
+        height: 50px;
+    }
+    .dropdown-appart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropdown-appart .dropdown {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 600px){
+    .appartement-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .details-appart h1 {
+        font-size: 1.5rem;
+    }
+    .details-user {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .details-user .user-flex span {
+        font-size: 0.7rem;
+    }
+    .appartement-details .profile-picture {
+        width: 50px;
+        height: 50px;
+    }
+    .dropdown-appart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropdown-appart .dropdown {
+        width: 100%;
+    }
+  }
