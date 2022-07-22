@@ -14,10 +14,10 @@ export default function DropdownTxt(props) {
       <div className="dropdown-container">
         <span>{localData.label}</span>
         {isActive &&(
-          <span className="arrow-down">&lt;</span>
+          <img src="Images/Vector.png" className="arrow-down" />
         )}
         {!isActive && (
-          <span className="arrow-up">&lt;</span>
+          <img src="Images/Vector.png" className="arrow-up" />
         )}
       </div>
       {isActive && (

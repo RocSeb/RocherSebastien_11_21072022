@@ -18,12 +18,12 @@
     border-radius: 5px;
   }
   .arrow-up {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     font-weight: bolder;
     font-size: 1.2rem;
   }
   .arrow-down {
-    transform: rotate(-90deg);
+    transform: rotate(180deg);
     font-weight: bolder;
     font-size: 1.2rem;
   }

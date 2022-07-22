@@ -5,14 +5,18 @@
     height: 50px;
   }
   .tags-container .tag {
-    display: block;
-    width: auto;
-    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    min-width: 110px;
+    min-height: 30px;
     background-color: #ff6060;
     border-radius: 10px;
     margin-left: 2%;
-    padding: 0 2% 0 2%;
-    text-align: center;
+    margin-top: 3%;
+  }
+  .tags-container .tag span {
     color: #fff;
   }
   @media screen and (min-width: 370px) and (max-width: 600px){

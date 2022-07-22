@@ -35,8 +35,8 @@ export default function Appartement() {
                 <Carousel cover={currentProduct.pictures} />
                 <div className="appartement-details">
                     <div className="details-appart">
-                        <h1>{currentProduct.label}</h1>
-                        <span>{currentProduct.geo}</span>
+                        <h1>{currentProduct.title}</h1>
+                        <span>{currentProduct.location}</span>
                         <Tags content={currentProduct.tags}></Tags>
                     </div>
                     <div className="details-user">

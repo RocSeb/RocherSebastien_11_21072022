@@ -1,6 +1,6 @@
 footer {
     height: 150px;
-    width: calc(100% + 15%);
+    width: calc(100vw);
     margin-left: -6%;
     background-color: #000;
     color: #fff;
